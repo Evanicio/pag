@@ -127,8 +127,54 @@ legend{
 legend {
     margin-bottom: 20px;
 }
-/*            Mobile           */
-@media (max-width:1000px) and (min-width:350px){
+section {
+    background-color: rgba(0, 0, 0, 0.925);
+}
+section h4 {
+    font: normal 30px arial;
+    font-weight: bold;
+    text-align: center;
+    color: #c1c1c1;
+    padding: 10px;
+}
+.container-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    display: grid;
+   
+    grid-template-columns:repeat(4 , 1fr);
+    grid-template-rows: repeat(3 ,200px);
+}
+.section-item{
+    text-align: center;
+}
+.section-item img {
+    max-width:300px ;
+    box-shadow: 3px 3px 5px #fff ;
+    transition: ease 0.2s ease-in;
+    opacity: 0.5;
+}
+.section-item img:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+.section-text{
+    flex: 1;
+    padding: 20px;
+   max-width: 350px;
+    word-wrap: break-word;
+    color: #fff;
+}
+
+
+
+
+
+
+
+/*            Responsividade         */
+@media (max-width:1000px) and (min-width:330px){
     main {
         background-color: #000;
         display: flex;
@@ -156,6 +202,7 @@ legend {
         padding: 30px;
         font: normal 25px arial;
         color: #c46d6d;
+        text-align: center;
     }
     footer {
         background-color: #17161d;
@@ -229,6 +276,45 @@ legend {
     legend {
         margin-bottom: 20px;
     }
+
+    section h4 {
+        font: normal 20px arial;
+        font-weight: bold;
+        text-align: center;
+        color: #c1c1c1;
+        padding: 10px;
+    }
+    .container-section {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .section-item{
+        text-align: center;
+    }
+    .section-item img {
+        max-width:300px ;
+        box-shadow: 3px 3px 5px #fff ;
+        transition: ease 0.2s ease-in;
+        opacity: 0.5;
+    }
+    .section-item img:hover {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    .section-text{
+        flex: 1;
+        padding: 20px;
+       max-width: 350px;
+        word-wrap: break-word;
+        color: #fff;
+    }
+    
 
 }
 
