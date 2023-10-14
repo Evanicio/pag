@@ -102,65 +102,64 @@ footer {
     background-color: #17161d;
     height: 100%;
 }
-footer figure{
-    padding: 20px;
+footer .container-footer {
     display: flex;
-    flex-direction: row;
+}
+
+footer figure{
+    display: flex;
     width: 100%;
-    height: 100%;
+    height: 50%;
+}
+footer  img{
+    padding: 20px;
+    height: 300px;
+    filter:drop-shadow( 6px 6px 6px #fff);
+}
+footer .image-rodape{
+    display: flex;
+    width: 40%;
 }
 footer figcaption{
-    display: flex;
-    align-items: end;
-    text-align: center;
-    margin-left: 30px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+    width:50%;
     word-wrap: break-word;
-    width: 300px;
-    
-    color: #d4d4d3;
+    height: 210px;
+    text-align: center;
+    color:#c1c1c1;
 }
-footer figcaption p {
-    font-size: 18px;
+footer figcaption > span{
+    color: #fff;
+    font-size: 18px;    
+}
+figcaption p {
+    padding: 20px;
+}
+footer .endereco-info{
+    padding: 20px;
+}
 
+footer .endereco{
+    color: #fff;
+    margin: 20px 20px;
 }
-footer figure img{
-    width: 50%;
-    height:300px ;
-    box-shadow: 6px 6px 6px #fff;
-    border-radius: 30%;
-   
-
-}
-footer figure img:hover{
-    filter: drop-shadow(6px 6px 6px #03fa);
-}
-.container-footer{
-    
-display: grid;
-grid-template-columns: repeat(3, 1fr);
+footer .endereco span{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4c4c4c;
 }
 footer .social{
     display: flex;
-    padding: 20px;
- 
+    margin: 20px 10px;
+    gap: 20px;
 }
-.linkdin{
-    margin-left: 20px;
-}
-.endereco{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #fff;
-    font-weight: bold;
-    font: normal 18px Arial;
-}
- footer .endereco-info{
-    margin-top: 20px;
-} 
 footer .copy{
-    color: #c1c1c1;
-    font-weight: bold;
-    padding: 20px;
+  color: #c1c1c1;
+  padding: 20px;
 }
 /*            Responsividade         */
 @media (max-width:1000px) and (min-width:315px){
@@ -231,73 +230,73 @@ footer .copy{
         word-wrap: break-word;
         color: #fff;
     }
-    footer {
+    footer {    
         background-color: #17161d;
         height: 100%;
     }
-
-    footer figure{
-        padding: 20px;
+    footer .container-footer {
+        height: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
 
+    }
+    
+    footer figure{
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        height: 100%;
+        height: 50%;
+    }
+    footer  img{
+        padding: 20px;
+        min-height: 200px;
+        filter:drop-shadow( 6px 6px 6px #fff);
+    }
+    footer .image-rodape{
+        display: flex;
+        width: 40%;
+        word-wrap: break-word;
     }
     footer figcaption{
-        display: flex;
-        padding-top: 20px;
-      
-        word-wrap: break-word;
-        width: 200px;
-        
-        color: #d4d4d3;
-    }
-    footer figcaption p {
-        font-size: 18px;
-    
-    }
-    footer figure img{
-        width: 100%;
-        height:200px ;
-        box-shadow: 6px 6px 6px #fff;
-        border-radius: 20%;
-       
-    
-    }
-    footer figure img:hover{
-        filter: drop-shadow(6px 6px 6px #03fa);
-    }
-    .container-footer{
-        display: flex;
-        flex-direction: column;
-    
-    }
-    footer .social{
-        display: flex;
-        padding: 20px;
-     
-    }
-    footer .linkdin{
-        margin-left: 20px;
-    }
-    footer .endereco{
-        padding-left: 20px;
         margin-top: 20px;
-        margin-bottom: 20px;
-        color: #fff;
-        font-weight: bold;
-        font: normal 18px Arial;
+        padding-left: 10px;
+        padding-top: 20px;
+        width:100%;
+        word-wrap: break-word;
+        text-align: center;
+        height: 110px;
+        text-align: center;
+        font-size: 15px;
+        color:#c1c1c1;
     }
     footer .endereco-info{
-        margin-top: 20px;
-    } 
-    footer .copy{
-        color: #c1c1c1;
-        font-weight: bold;
-        padding: 20px;
+        
+        text-align: center;
+        padding:  20px 20px;
+        font-size: 15px;
     }
- 
-    
-
+    footer .endereco span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #4c4c4c;
+        
+    }
+    footer .endereco{
+        color: #fff;
+        margin: 20px 20px;
+        
+    }
+    footer .social{
+        
+        display: flex;
+        margin: 10px 7px;
+        gap: 20px;
+    }
+    footer .copy{
+      color: #c1c1c1;
+      padding: 10px;
+      text-align: center;
+    }
 }
