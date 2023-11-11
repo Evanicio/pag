@@ -64,6 +64,8 @@ section h4 {
     font-weight: bold;
     text-align: center;
     color: #c1c1c1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     padding: 10px;
 }
 .container-section {
@@ -112,12 +114,12 @@ footer figure{
     height: 50%;
 }
 footer  img{
-    
     padding: 20px;
     height: 300px;
     filter:drop-shadow( 6px 6px 6px #fff);
 }
 footer .image-rodape{
+    background-color: #bbb;
     border: 1px solid #000;
     display: flex;
     width: 40%;
@@ -299,6 +301,6 @@ footer .copy{
     footer .copy{
       color: #c1c1c1;
       padding: 10px;
-      text-align: center;
+      text-align: right;
     }
 }
