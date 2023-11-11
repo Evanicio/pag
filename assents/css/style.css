@@ -112,6 +112,7 @@ footer figure{
     height: 50%;
 }
 footer  img{
+    border: 1px solid #000;
     padding: 20px;
     height: 300px;
     filter:drop-shadow( 6px 6px 6px #fff);
