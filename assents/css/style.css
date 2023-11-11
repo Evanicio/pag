@@ -121,7 +121,7 @@ footer  img{
 footer .image-rodape{
     background-color: rgba(187, 187, 187, 0.247)e7e;
     border: 1px solid #000;
-    box-shadow:6px 10px  ;
+    box-shadow:6px 8px  ;
     display: flex;
     width: 40%;
 }
