@@ -64,8 +64,8 @@ section h4 {
     font-weight: bold;
     text-align: center;
     color: #c1c1c1;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     padding: 10px;
 }
 .container-section {
