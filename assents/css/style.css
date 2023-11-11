@@ -119,7 +119,7 @@ footer  img{
     filter:drop-shadow( 6px 6px 6px #fff);
 }
 footer .image-rodape{
-    background-color: #bbb;
+    background-color: rgba(187, 187, 187, 0.301)e7e;
     border: 1px solid #000;
     box-shadow:6px 10px  ;
     display: flex;
