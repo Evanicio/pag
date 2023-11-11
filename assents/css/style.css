@@ -159,10 +159,13 @@ footer .endereco span{
 }
 footer .social{
     display: flex;
+    align-content: space-around;
+    justify-content: space-around;
     margin: 20px 10px;
     gap: 20px;
 }
 footer .copy{
+    text-align: right;
   color: #c1c1c1;
   padding: 20px;
 }
